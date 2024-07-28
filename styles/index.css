@@ -42,3 +42,69 @@ body {
   gap: 20px;
   color: white;
 }
+
+.about {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.contact {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.foto-div {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  justify-content: center;
+  display: flex;
+}
+
+.title-p {
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Volkhov", serif;
+  font-size: 45px;
+}
+
+.p {
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-me {
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 10px 30px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+}
